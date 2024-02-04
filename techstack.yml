@@ -1,0 +1,108 @@
+repo_name: Jeff-Bouchard/uni-resolver-driver-did-example
+report_id: 5d3cb9f6a5250f8a745b1aec5d76c02a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:48:16+00:00'
+requested_by: peacekeeper
+provider: github
+branch: main
+detected_tools_count: 7
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example/blob/main/docker/Dockerfile
+  detection_source: docker/Dockerfile
+  last_updated_by: Markus Sabadello
+  last_updated_on: 2020-04-23 13:35:09.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Markus Sabadello
+  last_updated_on: 2020-04-23 13:35:09.000000000 Z
+- name: connect
+  description: High performance middleware framework
+  package_url: https://www.npmjs.com/connect
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Markus Sabadello
+  last_updated_on: 2020-04-23 13:35:09.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Jeff-Bouchard/uni-resolver-driver-did-example/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Markus Sabadello
+  last_updated_on: 2020-04-23 13:35:09.000000000 Z
+  vulnerabilities:
+  - name: Code Injection in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8j8c-7jfh-h6hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.13.1
+  - name: Denial of Service in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2pr6-76vf-7546
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.13.0
